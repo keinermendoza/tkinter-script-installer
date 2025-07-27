@@ -7,6 +7,11 @@ Crea un entorno virtual
 ```bash
 python -m venv venv
 ```
+Activa el entorno
+```bash
+source venv/bin/activate
+```
+
 Instala las dependencias
 ```bash
 pip install -r requirements.txt
