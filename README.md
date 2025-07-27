@@ -11,7 +11,26 @@ Activa el entorno
 ```bash
 source venv/bin/activate
 ```
+- - -
+> Si usas Windows sigue estas instrucciones para activar el ambiente virtual
+<details>
+ <summary>Activar ambiente virtual en <strong>Windows</strong></summary>
 
+Abre PowerShell como administrador y ejecuta el siguiente comnado
+
+```shell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+Confirma la policy cuando te lo pregunte con **S**
+
+Ahora puedes activar el ambiente con este comando
+
+```shell
+.\venv\Scripts\Activate.ps1
+```
+</details>
+
+- - -
 Instala las dependencias
 ```bash
 pip install -r requirements.txt
@@ -23,6 +42,7 @@ python main.py
 ```
 
 
+
 ### Instalar Paquetes
 
 Puedes cargar scripts creados por otras personas usando el botón **Cargar nuevo paquete** en la interfaz principal.
@@ -30,6 +50,8 @@ Puedes cargar scripts creados por otras personas usando el botón **Cargar nuevo
 <img width="411" height="85" alt="step2" src="https://github.com/user-attachments/assets/17e4bc49-af93-4c3c-825c-b4110bd53f32" />
 
 Esto abrirá el explorador de archivos de tkinter
+
+> Si usas Windows la interfaz de las ventanas será la de costumbre
 
 <img width="419" height="287" alt="step3" src="https://github.com/user-attachments/assets/cb3e9bfe-05fb-45a3-9a6b-e116ed70a775" />
 
