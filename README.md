@@ -25,7 +25,23 @@ python main.py
 
 ### Instalar Paquetes
 
-Puedes cargar scripts creados por otras personas usando el botón **Cargar Paquetes** en la interfaz principal.
+Puedes cargar scripts creados por otras personas usando el botón **Cargar nuevo paquete** en la interfaz principal.
+
+<img width="411" height="85" alt="step2" src="https://github.com/user-attachments/assets/17e4bc49-af93-4c3c-825c-b4110bd53f32" />
+
+Esto abrirá el explorador de archivos de tkinter
+
+<img width="419" height="287" alt="step3" src="https://github.com/user-attachments/assets/cb3e9bfe-05fb-45a3-9a6b-e116ed70a775" />
+
+Navega hasta donde se encuentra el archivador **.zip** del paquete que quieres instalar
+
+<img width="420" height="286" alt="step4" src="https://github.com/user-attachments/assets/c8e29dcc-3879-46c4-8554-460077ef8955" />
+
+Seleccionalo y haz click en **Abir**
+
+<img width="406" height="120" alt="step5" src="https://github.com/user-attachments/assets/6f23f6ae-f886-470d-a441-f180330779cd" />
+
+Ya está inslado!
 
 ---
 
@@ -101,4 +117,4 @@ Coloca cada paquete dentro de la carpeta packages/.
 ### 🌍 Compartir tus Paquetes
 Para compartir un paquete, simplemente comprime la carpeta del paquete (la que contiene config.json y script.py) en un archivo .zip y súbelo a internet.
 
-Otros usuarios podrán instalarlo usando el botón **Cargar Paquetes**, como se describe en la sección [Instalar Paquetes](#instalar-paquetes).
+Otros usuarios podrán instalarlo usando el botón **Cargar nuevo paquete**, como se describe en la sección [Instalar Paquetes](#instalar-paquetes).
